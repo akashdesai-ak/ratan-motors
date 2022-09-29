@@ -37,7 +37,7 @@ a:hover{
 }
 .nav-link{
     font-size: 16px !important;
-    font-weight: 500;
+    /* font-weight: 500; */
     position: relative;
     text-align: center !important;
 }
@@ -273,4 +273,7 @@ margin-left: 15px;
  }
  .stories-slider img:hover{
 transform: scale(1.2);
+ }
+ .breadcrumb{
+    background-color: var(--white) !important;
  }
