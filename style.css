@@ -11,7 +11,7 @@
 --blue:#183883 !important; 
 --white:#fff;
 --aliceblue : #DAE1F2;
-
+--shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 html{
@@ -366,12 +366,39 @@ transition: 0.3s ease-in-out;
 
  .product-overview-pr{
    font-size: 40px !important;
-   border: 2px solid;
+   margin: 50px 3px;
    padding: 0px 100px !important;
 font-weight: bold !important;
    /* font-family: 'Didact Gothic', sans-serif !important; */
    color: #333333;
  }
  .product-overview{
-   background: url("./assets/img/overview-bg.webp");
+   background: url("./assets/img/overview-bg.webp")center;
+   /* background-attachment: fixed; */
+   background-size: cover;
+ }
+ .product-overview-content{
+   padding: 60px;
+   margin: 40px 40px;
+   background-color: var(--white);
+   position: relative;
+   /* clip-path: polygon(0% 0%, 100% 0, 100% 72%, 80% 100%, 0% 100%); */
+   /* -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 72%, 80% 100%, 0% 100%); */
+   filter: drop-shadow(-10px 11px 21px rgba(109, 109, 109, 0.31)) ;
+    -webkit-filter: drop-shadow(-10px 11px 21px rgba(109, 109, 109, 0.31));
+}
+ .product-overview-content::before{
+   content: '';
+   position: absolute;
+   width: 6px;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: linear-gradient(#49dacd, #a5fff7 10%, #49dacd 80%);
+   
+ }
+
+ .product-color{
+   background: url("./assets/img/n282-colors-bg-desk.webp") no-repeat center;
+   background-size: cover;
  }
