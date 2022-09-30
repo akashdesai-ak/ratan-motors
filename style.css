@@ -456,3 +456,23 @@ font-weight: 400 !important;
 .product-overview-gallery{
    background: url("./assets/img/n282-gallery-bg-desk.webp");
 }
+
+.btn-download{
+   font-size: 14px;
+   line-height: 18px;
+   background-color: #fff;
+   border: 2px solid #4c7da1 !important;
+   color: #1f5d8a;
+   margin-right: 20px;
+   padding: 8px 35px;
+   box-shadow: none;
+   text-transform: uppercase;
+   transition: 0.3s ease-in-out;
+
+   
+}
+.btn-download:hover{
+   background-color: #1f5d8a;
+   border: 2px solid #4c7da1;
+   color: #fff !important;
+}
