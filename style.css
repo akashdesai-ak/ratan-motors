@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+
 *{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -16,6 +17,21 @@
 html{
     scroll-behavior: smooth;
 }
+html::-webkit-scrollbar{
+   width: 0.9vw;
+}
+html::-webkit-scrollbar-track{
+   background:#dbdbdb;
+}
+/* html::-webkit-scrollbar-track:hover{
+   background: #a7a7a7;
+} */
+html::-webkit-scrollbar-thumb{
+   background: var(--blue);
+}
+/* html::-webkit-scrollbar-thumb:hover{
+   background:var(--purple-dark);
+} */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -346,4 +362,16 @@ transition: 0.3s ease-in-out;
  }
  .product-tabs .active .nav-link {
    background-color: var(--white) !important;
+ }
+
+ .product-overview-pr{
+   font-size: 40px !important;
+   border: 2px solid;
+   padding: 0px 100px !important;
+font-weight: bold !important;
+   /* font-family: 'Didact Gothic', sans-serif !important; */
+   color: #333333;
+ }
+ .product-overview{
+   background: url("./assets/img/overview-bg.webp");
  }
