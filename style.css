@@ -367,12 +367,13 @@ transition: 0.3s ease-in-out;
 
  .product-overview-pr{
    font-size: 40px !important;
-   margin: 50px 3px;
-   padding: 0px 100px !important;
-font-weight: 400 !important;
-   /* font-family: 'Didact Gothic', sans-serif !important; */
+   margin: 0px 3px;
+   padding: 46px 10px !important;
+   font-weight: 400 !important;
    color: #333333;
+   text-align: center !important;
  }
+
  .product-overview{
    background: url("./assets/img/overview-bg.webp")center;
    /* background-attachment: fixed; */
@@ -458,7 +459,7 @@ font-weight: 400 !important;
 }
 
 .btn-download{
-   font-size: 14px;
+   font-size: 14px !important;
    line-height: 18px;
    background-color: #fff;
    border: 2px solid #4c7da1 !important;
@@ -466,11 +467,11 @@ font-weight: 400 !important;
    margin-right: 20px;
    padding: 8px 35px;
    box-shadow: none;
+   border-radius: 0 !important;
    text-transform: uppercase;
    transition: 0.3s ease-in-out;
-
-   
 }
+
 .btn-download:hover{
    background-color: #1f5d8a;
    border: 2px solid #4c7da1;
