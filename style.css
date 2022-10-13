@@ -249,6 +249,7 @@ height: 40px;
 position:absolute;
 top: 50%;
 margin-left: 15px;
+border-radius: 100%;
  }
  .home-product-content .carousel-control-next{
     background-color: var(--red) !important;
@@ -257,6 +258,8 @@ margin-left: 15px;
     position: absolute;
     top: 50%;
     margin-right: 10px;
+border-radius: 100%;
+
  }
  .button-primary{
     background-color: var(--blue) !important;
@@ -452,7 +455,7 @@ transition: 0.3s ease-in-out;
    height: 50px;
    position: absolute;
    top: 40%;
-
+   border-radius: 100%;
 }
 .product-overview-gallery{
    background: url("./assets/img/n282-gallery-bg-desk.webp");
@@ -492,8 +495,8 @@ transition: 0.3s ease-in-out;
    background-color: var(--red) !important;
 }
 
-.carousel-control-prev,
-.carousel-control-next{
+#hero-slider .carousel-control-prev,
+#hero-slider .carousel-control-next{
    position: absolute !important;
    top: 45% !important;
    width: 3rem !important;
@@ -502,12 +505,12 @@ transition: 0.3s ease-in-out;
    border-radius: 999px;
 }
 
-.carousel-control-prev{
+#hero-slider .carousel-control-prev{
    margin-left: 10px;
 }
 
 
-.carousel-control-next{
+#hero-slider .carousel-control-next{
    margin-right: 10px;
 }
 
