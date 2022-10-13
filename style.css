@@ -501,8 +501,25 @@ transition: 0.3s ease-in-out;
    top: 45% !important;
    width: 3rem !important;
    height: 3rem;
-   background-color: var(--red);
+   background: transparent !important;
+   border: 3px solid var(--red) !important;
    border-radius: 999px;
+}
+
+@media screen and (max-width:900px){
+   #hero-slider .carousel-control-prev,
+#hero-slider .carousel-control-next{
+  
+   width: 2rem !important;
+   height: 2rem !important;
+  
+}
+}
+
+
+#hero-slider .carousel-control-prev:hover,
+#hero-slider .carousel-control-next:hover{
+   background-color: var(--red) !important;
 }
 
 #hero-slider .carousel-control-prev{
@@ -513,6 +530,7 @@ transition: 0.3s ease-in-out;
 #hero-slider .carousel-control-next{
    margin-right: 10px;
 }
+
 
 .breadcrumb{
  padding-top: 20px !important;
