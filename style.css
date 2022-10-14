@@ -550,6 +550,9 @@ transition: 0.3s ease-in-out;
    padding: 80px 0 !important;
 }
 
+.reach-us i{
+   display: none;
+}
 
 .vertical-line{
    background-color: var(--blue);
@@ -564,4 +567,43 @@ transition: 0.3s ease-in-out;
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
 
+}
+
+@media screen and (max-width:710px){
+   .vertical-line{
+      display: none;
+   }
+   .reach-us{
+      padding: 0px 0 !important;
+   }
+   .reach-us i{
+      display: block;
+      text-align: center;
+   }
+  
+}
+
+.contact-details{
+   padding: 50px 20px !important;
+
+}
+.contact-details i{
+   font-size: 40px;
+opacity: .7;
+}
+
+.contact-details-text p{
+margin: 0;
+}
+
+.contact-details-text p:nth-child(2){
+   font-size: 30px;
+   color: #183883;
+   font-weight: bold;
+}
+
+#map {
+   height: 500px;
+ max-width: 100%;
+ 
 }
