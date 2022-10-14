@@ -584,7 +584,7 @@ margin: 0;
 }
 
 .contact-details-text p:nth-child(2){
-   font-size: 20px;
+   font-size: 25px;
    color: #183883;
    font-weight: bold;
 }
@@ -606,5 +606,13 @@ margin: 0;
       display: block;
       text-align: center;
    }
-  
+   .contact-details i{
+      font-size: 20px;
+       opacity: .7;
+   }
+   .contact-details-text p:nth-child(2){
+      font-size: 1.1rem;
+      color: #183883;
+      font-weight: bold;
+   }
 }
