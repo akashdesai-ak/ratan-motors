@@ -569,19 +569,6 @@ transition: 0.3s ease-in-out;
 
 }
 
-@media screen and (max-width:710px){
-   .vertical-line{
-      display: none;
-   }
-   .reach-us{
-      padding: 0px 0 !important;
-   }
-   .reach-us i{
-      display: block;
-      text-align: center;
-   }
-  
-}
 
 .contact-details{
    padding: 50px 20px !important;
@@ -597,7 +584,7 @@ margin: 0;
 }
 
 .contact-details-text p:nth-child(2){
-   font-size: 30px;
+   
    color: #183883;
    font-weight: bold;
 }
@@ -606,4 +593,26 @@ margin: 0;
    height: 500px;
  max-width: 100%;
  
+}
+
+@media screen and (max-width:710px){
+   .vertical-line{
+      display: none;
+   }
+   .reach-us{
+      padding: 0px 0 !important;
+   }
+   .reach-us i{
+      display: block;
+      text-align: center;
+   }
+   .contact-details i{
+      font-size: 20px;
+   opacity: .7;
+   }
+   .contact-details-text p:nth-child(2){
+   font-size:18px;
+      color: #183883;
+      font-weight: bold;
+   }
 }
